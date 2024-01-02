@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif; /* Set default font to Times New Roman */
+      background-image: url('R.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .main-content {
+      display: flex;
+      width: 80%;
+    }
+
+    .rectangular-box {
+      flex: 1;
+      padding: 40px;
+      margin-right: 20px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      text-align: justify;
+      font-size: 15px; /* Decrease font size for the rectangular box */
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.6;
+      box-sizing: border-box;
+    }
+
+    .signup-section {
+      flex: 0.5;
+      padding: 20px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      position: relative;
+      right: 0;
+      top: 0;
+      box-sizing: border-box;
+    }
+
+    .signup-header {
+      width: 100%;
+      padding: 20px;
+    
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: #f8d63e;
+      border-radius: 15px 15px 0 0;
+      background-color: #165da9;
+      color: #fff;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .signup-header h2 {
+      margin: 0;
+    }
+    
+
+    .signup-main {
+      padding: 20px;
+      border-radius: 0 0 15px 15px;
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+    }
+
+    .already-have-account {
+      margin-top: 10px;
+      padding: 20px;
+      border-radius: 0 0 15px 15px;
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+    }
+
+    .footer {
+      margin-top: 20px;
+      background-color: #165da9;
+      font-family: 'Times New Roman', Times, serif;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    button {
+      width: calc(100% - 40px);
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #720e0eccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: rgb(89, 76, 175);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="main-content">
+    <div class="rectangular-box">
+      <h2>Hello CURIOUSCATS!!!</h2>
+      <p>Welcome to our website where you can identify what's true to not with our help,</p>
+      <p>Ah, Reali-TEA, the captivating portal where the gears of reality churn and clash against the rampant waves of misinformation! 
+        Step into this digital realm, where the battleground isn't just a mere contest of facts versus fiction; 
+        it's an epic saga of truth reclaiming its throne amidst the tumultuous landscape of deceit.</p>
+      <p>Here, we don't just serve up truth; we craft an immersive experience, a journey that transcends the mundane. It's not simply about discerning what's real and what's not—it's about engaging in an exhilarating quest to unravel the veils of deception that cloak the truth.
+        Picture this: you're not just a user; you're a truth seeker, equipped with the finest tools forged from evidence and bolstered by credibility. As you navigate through our curated corridors of information, 
+        you'll witness the stunning revelation of facts standing tall against the tempest of falsehoods.</p>
+      <p>This isn't just a website—it's a sanctum where reality dons its armor to combat the forces of misinformation. Take a sip of Reali-TEA, where every revelation is a revelation, every discovery a triumph, and where the mind-blowing spectacle of truth prevailing will leave you both astounded and empowered!</p>
+    </div>
+
+    <div class="signup-section">
+      <div class="signup-header">
+        <h2 style="color: #f5da61;">Reali-TEA</h2>
+        <h2>Sign Up</h2>
+      </div>
+
+      <div class="signup-main">
+        <form class="signup-form" action="#">
+          <input type="text" placeholder="First Name" name="firstname" required><br>
+          <input type="text" placeholder="Last Name" name="lastname" required><br>
+          <!-- Other signup form inputs -->
+          <!-- Input fields and button -->
+          <input type="email" placeholder="Email" name="email" required><br>
+          <input type="password" placeholder="Password" name="password" required><br>
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+
+      <div class="already-have-account">
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Address | Contact Number | Email</p>
+</div>
+
+</body>
+</html>
+
